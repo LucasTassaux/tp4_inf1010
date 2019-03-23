@@ -1,0 +1,17 @@
+﻿  Boisson.cpp
+  Client.cpp
+  ClientOccasionnel.cpp
+  ClientPrestige.cpp
+  ClientRegulier.cpp
+  LectureFichierEnSections.cpp
+  main.cpp
+  Menu.cpp
+  Plat.cpp
+  PlatBio.cpp
+  PlatBioVege.cpp
+  PlatVege.cpp
+  Restaurant.cpp
+  Table.cpp
+  Vege.cpp
+  Generating Code...
+  inf1010_tp4.vcxproj -> C:\Users\danne\Documents\School\H2019\INF1010\tp4_inf1010\x64\Debug\inf1010_tp4.exe

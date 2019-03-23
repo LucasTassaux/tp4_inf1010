@@ -6,7 +6,7 @@
 #define CLIENT_PRESTIGE
 
 #include "ClientRegulier.h"
-
+//#include "Client.h"
 #include "def.h"
 class ClientPrestige : public ClientRegulier
 {
@@ -19,9 +19,9 @@ public:
 	ZoneHabitation getAdresseCode() const;
 
 	//Autres Fonctions
-    void afficherClient(ostream & os) const;// TODO
+   virtual void afficherClient(ostream & os) const;// TODO
 	string getAdressCodeString() const;
-    double getReduction(const Restaurant & res, double montant, bool estLivraison); //TODO
+    virtual double getReduction(const Restaurant & res, double montant, bool estLivraison); //TODO
 
 private:
 	ZoneHabitation adresse_;

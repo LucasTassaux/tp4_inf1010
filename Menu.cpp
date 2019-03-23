@@ -23,7 +23,10 @@ Menu::Menu(string fichier, TypeMenu type) :
 
 Menu::~Menu()
 {
-	//TODO
+	for (unsigned int i = 0; i < listePlats_.size(); i++) {
+		delete listePlats_[i];
+	}
+	
 }
 
 Plat* Menu::allouerPlat(Plat* plat) {

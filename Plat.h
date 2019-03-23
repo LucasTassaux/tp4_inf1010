@@ -28,7 +28,7 @@ public:
 	void setPrix(double prix);
 
 	//methodes en plus
-        double getPrixRevient();
+       virtual double getPrixRevient();
        virtual Plat *  clone () const; // TODO
 	bool operator < (const Plat& plat) const;
        virtual void afficherPlat(ostream& os) const; // TODO

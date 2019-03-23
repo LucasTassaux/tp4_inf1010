@@ -15,6 +15,7 @@ Client::Client(string_view nom, string_view prenom, int tailleGroupe) :
     tableOccupee_ = nullptr;
 }
 
+
 int Client::getTailleGroupe() const
 {
 	return tailleGroupe_;

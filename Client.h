@@ -16,7 +16,7 @@ class Client
 public:
 	Client();
 	Client(string_view nom, string_view prenom, int tailleGroupe);
-        ~Client(){};
+	~Client() {};
 	//getters
 	int getTailleGroupe() const;
 	string getNom() const;
@@ -26,7 +26,7 @@ public:
     void setTable(Table * ta);
 	//affichage
         virtual int getNbPoints() const=0;
-        virtual void afficherClient(ostream & os) const=0; // TODO
+        virtual void afficherClient(ostream & os) const; // TODO
        virtual double getReduction(const Restaurant & res, double montant, bool estLivraison)=0;
 
 protected:

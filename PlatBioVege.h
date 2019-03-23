@@ -16,7 +16,7 @@ public:
                 double vitamines = 0, double proteines = 0, double mineraux = 0);// TODO
         ~PlatBioVege();
        virtual Plat * clone() const; // TODO
-        void afficherPlat(ostream & os) const;// TODO
+       virtual void afficherPlat(ostream & os) const;// TODO
        virtual double calculerApportNutritif() const; // TODO
 
 };

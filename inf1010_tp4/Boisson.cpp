@@ -9,7 +9,9 @@
 #include "Boisson.h"
 // TODO
 Boisson::Boisson (string_view nom, double prix): nom_(nom), prix_(prix)
-{}
+{
+	setTaxe();
+}
 
 
 string_view Boisson::getNom() const

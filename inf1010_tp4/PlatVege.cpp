@@ -8,6 +8,7 @@
 //TODO
 PlatVege::PlatVege(string nom, double prix, double cout, double vitamines, double proteines, double mineraux): Plat(nom, prix, cout), Vege(nom, vitamines, proteines, mineraux)
 {
+	setTaxe();
 }
 PlatVege::~ PlatVege(){}
 
